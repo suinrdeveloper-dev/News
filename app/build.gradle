@@ -2,15 +2,4 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 
     // Standard Android UI Components
-    implementation 'androidx.appcompat:appcompat:1.6.1'
-    implementation 'com.google.android.material:material:1.11.0'
-    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
-
-    // BlackBox Core (Virtualization Engine)
-    // नोट: अगर यह Gradle से नहीं मिलता, तो GitHub से .aar फाइल डाउनलोड करके libs में डालें
-    // हम मान रहे हैं कि आपने jitpack repository add किया है
-    implementation 'top.niunaijun.blackbox:blackbox-core:1.1.0' 
-
-    // Logs को JSON फॉर्मेट में सेव करने के लिए
-    implementation 'com.google.gson:gson:2.10.1'
-}
+  
